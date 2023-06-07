@@ -1,0 +1,28 @@
+.nav{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-family: Arial, bold, sans-serif;
+}
+.nav a {
+    text-decoration: none;
+}
+#logo{
+    max-width: 30vw;
+}
+
+img{
+    max-width: 90vw;
+}
+
+.mig{
+    text-align: center;
+    margin-top: 20vw;
+}
+
+.mig img{
+    border-radius: 5vw;
+}
+
+.nav{
+    background-color: #0c7e77;
+}
