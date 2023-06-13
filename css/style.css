@@ -18,16 +18,13 @@ img {
   width: 100%;
 }
 
-.tema img {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
 .image-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 1rem;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 .nav {
@@ -152,6 +149,8 @@ h4 {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom:20px;
 }
 
 @media only screen and (max-width: 600px) {
